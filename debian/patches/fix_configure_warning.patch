@@ -3,23 +3,22 @@ Description: fix a warning in configure script
  during execution of the configure script.
 Author: Julien BLACHE <jblache@debian.org>
 
-Index: libantlr3c-3.2/configure
+Index: libantlr3c/configure
 ===================================================================
---- libantlr3c-3.2.orig/configure	2010-06-24 16:22:24.000000000 +0200
-+++ libantlr3c-3.2/configure	2010-06-24 16:22:30.000000000 +0200
-@@ -19704,7 +19704,7 @@
+--- libantlr3c.orig/configure	2012-11-12 17:23:20.000000000 +0000
++++ libantlr3c/configure	2012-11-12 17:29:11.571386839 +0000
+@@ -10720,7 +10720,6 @@
  # Checks for libraries.
  
  # Checks for header files.
 -$ac_includes_default
-+
- 
- 
- 
-Index: libantlr3c-3.2/configure.ac
+ for ac_header in sys/types.h netinet/in.h arpa/nameser.h netdb.h resolv.h
+ do :
+   as_ac_Header=`$as_echo "ac_cv_header_$ac_header" | $as_tr_sh`
+Index: libantlr3c/configure.ac
 ===================================================================
---- libantlr3c-3.2.orig/configure.ac	2010-06-24 16:22:13.000000000 +0200
-+++ libantlr3c-3.2/configure.ac	2010-06-24 16:22:20.000000000 +0200
+--- libantlr3c.orig/configure.ac	2012-11-12 17:27:18.000000000 +0000
++++ libantlr3c/configure.ac	2012-11-12 17:29:00.887387300 +0000
 @@ -148,7 +148,6 @@
  # Checks for libraries.
  

@@ -3,11 +3,11 @@ Description: set a proper soname
  -release X.Y -version-info 0:0:0 for the Debian packages.
 Author: Julien BLACHE <jblache@debian.org>
 
-Index: libantlr3c-3.2/Makefile.am
+Index: libantlr3c/Makefile.am
 ===================================================================
---- libantlr3c-3.2.orig/Makefile.am	2010-06-24 16:16:00.000000000 +0200
-+++ libantlr3c-3.2/Makefile.am	2010-06-24 16:16:13.000000000 +0200
-@@ -65,7 +65,7 @@
+--- libantlr3c.orig/Makefile.am	2012-11-12 17:27:18.075386950 +0000
++++ libantlr3c/Makefile.am	2012-11-12 17:28:27.491387608 +0000
+@@ -62,7 +62,7 @@
  					include/antlr3treeparser.h				\
  					antlr3config.h
  
@@ -16,11 +16,11 @@ Index: libantlr3c-3.2/Makefile.am
  
  INCLUDES = -Iinclude
  
-Index: libantlr3c-3.2/Makefile.in
+Index: libantlr3c/Makefile.in
 ===================================================================
---- libantlr3c-3.2.orig/Makefile.in	2010-06-24 16:15:22.000000000 +0200
-+++ libantlr3c-3.2/Makefile.in	2010-06-24 16:15:58.000000000 +0200
-@@ -272,7 +272,7 @@
+--- libantlr3c.orig/Makefile.in	2012-11-12 17:27:18.075386950 +0000
++++ libantlr3c/Makefile.in	2012-11-12 17:28:27.495387608 +0000
+@@ -294,7 +294,7 @@
  					include/antlr3treeparser.h				\
  					antlr3config.h
  
