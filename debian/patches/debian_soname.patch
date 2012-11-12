@@ -5,27 +5,27 @@ Author: Julien BLACHE <jblache@debian.org>
 
 Index: libantlr3c/Makefile.am
 ===================================================================
---- libantlr3c.orig/Makefile.am	2012-11-12 17:27:18.075386950 +0000
-+++ libantlr3c/Makefile.am	2012-11-12 17:28:27.491387608 +0000
+--- libantlr3c.orig/Makefile.am	2012-11-12 17:32:19.403385466 +0000
++++ libantlr3c/Makefile.am	2012-11-12 17:37:34.091384912 +0000
 @@ -62,7 +62,7 @@
  					include/antlr3treeparser.h				\
  					antlr3config.h
  
 -libantlr3c_la_LDFLAGS = -avoid-version
-+libantlr3c_la_LDFLAGS = -release 3.2 -version-info 0:0:0
++libantlr3c_la_LDFLAGS = -release 3.4 -version-info 0:0:0
  
  INCLUDES = -Iinclude
  
 Index: libantlr3c/Makefile.in
 ===================================================================
---- libantlr3c.orig/Makefile.in	2012-11-12 17:27:18.075386950 +0000
-+++ libantlr3c/Makefile.in	2012-11-12 17:28:27.495387608 +0000
+--- libantlr3c.orig/Makefile.in	2012-11-12 17:32:19.403385466 +0000
++++ libantlr3c/Makefile.in	2012-11-12 17:37:08.975378067 +0000
 @@ -294,7 +294,7 @@
  					include/antlr3treeparser.h				\
  					antlr3config.h
  
 -libantlr3c_la_LDFLAGS = -avoid-version
-+libantlr3c_la_LDFLAGS = -release 3.2 -version-info 0:0:0
++libantlr3c_la_LDFLAGS = -release 3.4 -version-info 0:0:0
  INCLUDES = -Iinclude
  EXTRA_DIST = \
  				vsrulefiles/antlr3lexerandparser.rules		\
