@@ -1,3 +1,9 @@
+libantlr3c (3.4-0~upfmipal1) precise; urgency=low
+
+  * Imported Upstream version 3.4
+
+ -- Esteve Fernandez <esteve@apache.org>  Mon, 12 Nov 2012 17:23:58 +0000
+
 libantlr3c (3.2-2build1) precise; urgency=low
 
   * No-change rebuild against current pkgbinarymangler to fix broken
